@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+}
+header{
+    background-color: black;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    height: 55px;
+}
+
+h1{
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.ppp{
+    display: grid;
+    place-content: center;
+    margin-top: 60px;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    display: flex;
+    padding: 7px;
+    border: 3px;
+    margin-right: 35px;
+    margin-top: 4px;
+
+}
+li:hover{
+    background-color: rgb(233, 224, 224);
+}
+
+form{
+    width: 380px;
+    height: 340px;
+    display: grid;
+    place-content: center;
+    background-color: rgb(174, 168, 168);
+    border-radius: 10px;   
+}
+
+input{
+    border-radius: 8px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+footer{
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-style: oblique
+}
+h6{
+    color: rgb(132, 3, 3);
+}
+
+#arreglo{
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+}
+
+.texto{
+    color: white;
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 300px;
+    height: 420px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    background: rgb(112, 6, 6);
+    margin: 50px;
+
+}
+
+.line{
+    margin-top: 5px;
+}
+
+.ima{
+    width: 165px;
+    height: 171px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.head-link{
+    color: white;
+    text-decoration: none;
+}
+
